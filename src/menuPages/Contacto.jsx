@@ -8,21 +8,17 @@ export default class Contacto extends Component {
       <div className="parallax_about">
         <Grid>
           <Jumbotron className="jumbotron_about">
-            <h2 style={{ color: "rgb(104, 104, 104)" }}>Quienes Somos</h2><br/>
-            <p>
-              Mi nombre es Rolando Aranda, y soy el creador de Guía Gospel.
-              Resido en la Ciudad Autónoma de Buenos Aires junto a mi esposa Liliana.
-              Ambos somos Pastores, pertenecientes al Ministerio Internacional del Evangelio Cuadrangular en Argentina.
-              Somos fundadores de una obra en la ciudad de Ceres, Santa Fé, y su anexo en la localidad de Selva, Sgo del Estero.
-            </p>
-            <p>
-              Actualmente nuestra Misión, es colaborar con la extensión del Reino de nuestro Señor Jesucristo, en la Ciudad de Buenos Aires.
-              También nuestra Misión es llevar adelante el proyecto Guía Gospel a cada rincón de Argentina.<br/>              Deseando que cada hno/a de la Fé sea bendición a su prójimo.
-              SUMATE..!!<br/><br/>
-            <p>
+            <h2 style={{ color: "rgb(104, 104, 104)" }}>Contacto</h2><br/>
+              <p> 
+              <p>
+              Hacé clic en el siguiente boton de whatsapp y comunicate con nosotros ->
+              </p>
+								<a class="wtsp-link" href="https://api.whatsapp.com/send?phone=5491157973380&text=Hola%2C%20quiero%20saber%20mas">
+									<i class="fab fa-whatsapp fa-7x"></i><br/><br/>
+								</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel. 011-5797-3380<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guía Gospel<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Una Visión con Propósito"<br/><br/>
-            </p>
             </p>
           </Jumbotron>
         </Grid>

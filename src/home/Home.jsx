@@ -16,7 +16,7 @@ export default class Home extends Component {
                   <Col xs={12} md={10}>
                     <Row>
                       <Col xs={9} sm={11}>
-                        <FormControl type="text" placeholder="¿Qué buscás?" />
+                        <FormControl className="inputHome" type="text" placeholder="¿Qué buscás?" />
                       </Col>
                       <Col xs={1} sm={1}>
                         <Button type="submit" className="btnBuscar" bsSize="lg"><i className="fas fa-search"></i></Button>

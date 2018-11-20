@@ -13,11 +13,21 @@ export default class Servicios extends Component {
                             <FormGroup bsSize="lg">
                                 <Row className="show-grid text-center">
 
-                                    <Col xs={1} md={3} className="referenciaCategoria">
-                                        <i className="fas fa-users fa-7x"></i><h6>Servicios</h6>
+                                    <Col xs={1} md={2} className="referenciaVolver">
+                                        <Nav >
+                                            <NavItem eventKey={1} componentClass={Link} href="/" to="/">
+                                                <i className="fas fa-home fa-3x"></i>
+                                            </NavItem>
+                                        </Nav>
+                                        <Nav >
+                                            <NavItem eventKey={1} componentClass={Link} href="/" to="/">
+                                                <i className="fas fa-arrow-left fa-3x"></i>
+                                            </NavItem>
+                                        </Nav>
+
                                     </Col>
 
-                                    <Col xs={9} md={7}>
+                                    <Col xs={11} md={10}>
                                         <Row>
                                             <Col xs={9} sm={11}>
                                                 <FormControl type="text" placeholder="¿Qué buscás?" />
@@ -26,14 +36,6 @@ export default class Servicios extends Component {
                                                 <Button type="submit" className="btnBuscar" bsSize="lg"><i className="fas fa-search"></i></Button>
                                             </Col>
                                         </Row>
-                                    </Col>
-
-                                    <Col xs={1} md={2} className="referenciaHome">
-                                        <Nav >
-                                            <NavItem eventKey={1} componentClass={Link} href="/" to="/">
-                                                <i className="fas fa-home fa-2x"></i>
-                                            </NavItem>
-                                        </Nav>
                                     </Col>
 
                                 </Row>

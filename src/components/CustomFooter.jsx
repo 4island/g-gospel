@@ -7,7 +7,10 @@ export default class CustomLeftter extends Component {
     return (
       <Navbar default collapseOnSelect className="Footer">
 
-        <h1><Label className="Publicidad_Footer">Publicidad</Label></h1>
+        <h1>
+          <Label className="Publicidad_Footer">85x180</Label>
+          <Label className="Publicidad_Footer">85x180</Label>
+        </h1>
 
       </Navbar>
     )

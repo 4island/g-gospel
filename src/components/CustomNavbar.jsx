@@ -32,13 +32,13 @@ export default class CustomNavbar extends Component {
           <Navbar.Brand>
             <Link to="/" className="logo-texto">
                 <h2>&nbsp;
-                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px"
+                    <svg version="1.1" className="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 210 210" style={{enableBackground:'new 0 0 210 210'}} xmlSpace="preserve">
                     <path style={{fill:'#FFFFFF'}} d="M148.5,85H210v20c0,57.9-47.1,105-105,105S0,162.9,0,105S47.1,0,105,0c23.4,0,45.5,7.5,64,21.8
                       l-24.4,31.7C133.2,44.7,119.5,40,105,40c-35.8,0-65,29.2-65,65s29.2,65,65,65c28.9,0,53.4-18.9,61.9-45h-17.6"/>
                     </svg>
                     uía&nbsp;
-                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px"
+                    <svg version="1.1" className="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
                       viewBox="0 0 210 210" style={{enableBackground:'new 0 0 210 210'}} xmlSpace="preserve">
                     <path style={{fill:'#FFFFFF'}} d="M148.5,85H210v20c0,57.9-47.1,105-105,105S0,162.9,0,105S47.1,0,105,0c23.4,0,45.5,7.5,64,21.8
                       l-24.4,31.7C133.2,44.7,119.5,40,105,40c-35.8,0-65,29.2-65,65s29.2,65,65,65c28.9,0,53.4-18.9,61.9-45h-17.6"/>
@@ -46,8 +46,7 @@ export default class CustomNavbar extends Component {
                     ospel
                 </h2>
 
-                <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Una Visión con Propósito"</h6>
-                {/* El buscador del pueblo de Cristo */}
+                <h6>&nbsp;&nbsp;&nbsp;"Una Visión con Propósito"</h6>
             </Link>
           </Navbar.Brand>
 

@@ -13,11 +13,21 @@ export default class Profesional extends Component {
                             <FormGroup bsSize="lg">
                                 <Row className="show-grid text-center">
 
-                                    <Col xs={1} md={3} className="referenciaCategoria">
-                                        <i className="far fa-address-card fa-5x"><h6>Profesional</h6></i>
+                                    <Col xs={1} md={2} className="referenciaVolver">
+                                        <Nav >
+                                            <NavItem eventKey={1} componentClass={Link} href="/" to="/">
+                                                <i className="fas fa-home fa-3x"></i>
+                                            </NavItem>
+                                        </Nav>
+                                        <Nav >
+                                            <NavItem eventKey={1} componentClass={Link} href="/" to="/">
+                                                <i className="fas fa-arrow-left fa-3x"></i>
+                                            </NavItem>
+                                        </Nav>
+
                                     </Col>
 
-                                    <Col xs={9} md={7}>
+                                    <Col xs={11} md={10}>
                                         <Row>
                                             <Col xs={9} sm={11}>
                                                 <FormControl type="text" placeholder="¿Qué buscás?" />
@@ -27,17 +37,6 @@ export default class Profesional extends Component {
                                             </Col>
                                         </Row>
                                     </Col>
-
-                                    <Col xs={1} md={2} className="referenciaHome">
-                                        <Nav >
-                                            <NavItem eventKey={1} componentClass={Link} href="/" to="/">
-                                                <i className="fas fa-home fa-2x"></i>
-                                            </NavItem>
-                                        </Nav>
-                                        {/* <i class="fas fa-arrow-left"></i> */}
-                                    </Col>
-
-
                                 </Row>
                             </FormGroup>
                         </Form>
